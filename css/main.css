@@ -197,29 +197,42 @@ font-style: normal;
 #container  .mart-list {
 	position: absolute;
 	top: 72px;
-	left: 0;
+	left: 50%;
+	transform: translateX(-50%);
 	z-index: 1;
 	display: none;
 	box-sizing: border-box;
-	width: 100%;
+  width: 100%; 
 	height: 484px;
-  padding: 100px 35%;
 	background-size: 910px 484px;
+}
+#container  .mart-list .layout {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+#container  .mart-main {
+	position: absolute;
+	top: 100px;
+	left: 250px;	
+	width: 300px;
 }
 #container  .active {
 		display: block;
 }
-#container  .mart-list h1 {
+#container  .mart-main h1 {
 	font: normal 40px/32px  Helvetica, "Pingfang SC", "Microsoft YaHei", STHeiti, Verdana, Arial, Tahoma, sans-serif;
 	color: white;
 }
-#container  .mart-list p {
+#container  .mart-main p {
 	font: normal 16px/32px  Helvetica, "Pingfang SC", "Microsoft YaHei", STHeiti, Verdana, Arial, Tahoma, sans-serif;
 	color: white;
 }
-#container  .mart-list a {
+#container  .mart-main a {
 	position: absolute;
-	bottom: 128px;
+	bottom: -125px;
+	left: 0px;
 	display: inline-block;
 	width: 90px;
 	height: 32px;
@@ -231,14 +244,15 @@ font-style: normal;
 	cursor: pointer;
 	font: normal 14px/32px  Helvetica, "Pingfang SC", "Microsoft YaHei", STHeiti, Verdana, Arial, Tahoma, sans-serif;
 }
-#container  .list-second {
-	left: 42%;
+#container  .mart-main .list-second {
+	left: 120px;
 }
 #container  .list-support {
 	position: absolute;
-	bottom: 80px;
+	left: 0px;
+	bottom: -160px;
 }
-#container  .mart-list .list-first {
+#container  .mart-main .list-first {
 	background: white;
 }
 #container .micro-mart .list-first {
@@ -267,7 +281,7 @@ font-style: normal;
 }
 /* #container  .mart-list a */
 #container .micro-mart .mart-list {
-	background:  #ea3838 url(https://img.alicdn.com/imgextra/i2/1036020250/TB29yQzemBjpuFjy1XdXXaooVXa_!!1036020250.jpg) no-repeat 85% 0;
+	background:  #ea3838 url(https://img.alicdn.com/imgextra/i2/1036020250/TB29yQzemBjpuFjy1XdXXaooVXa_!!1036020250.jpg) no-repeat 200px 0;
 }
 #container .micro-shop .mart-list {
 	background: #1089c7 url(https://img.alicdn.com/imgextra/i3/1036020250/TB2bcEPfblmpuFjSZFlXXbdQXXa_!!1036020250.jpg) no-repeat 85% 0;
