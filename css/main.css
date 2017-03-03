@@ -343,32 +343,39 @@ font-style: normal;
     font: 14px/30px Helvetica, "Pingfang SC", "Microsoft YaHei", STHeiti, Verdana, Arial, Tahoma, sans-serif;
 }
 #container .solution-list .list-store {
-    background: #f7ffee url(https://img.alicdn.com/imgextra/i3/1036020250/TB2xdD1eHRkpuFjSspmXXc.9XXa_!!1036020250.png);
+    background: #f7ffee url(https://img.alicdn.com/imgextra/i3/1036020250/TB2xdD1eHRkpuFjSspmXXc.9XXa_!!1036020250.png) no-repeat center;
 }
 #container .solution-list .list-store a {
     border: 1px solid #44bb00;
     color: #44bb00;
 }
 #container .solution-list .list-ticket {
-    background: #f1fffc url(https://img.alicdn.com/imgextra/i1/1036020250/TB23V3ofUdnpuFjSZPhXXbChpXa_!!1036020250.png);
+    background: #f1fffc url(https://img.alicdn.com/imgextra/i1/1036020250/TB23V3ofUdnpuFjSZPhXXbChpXa_!!1036020250.png) no-repeat center;
 }
 #container .solution-list .list-ticket a {
     border: 1px solid #45babc;
     color: #45babc;
 }
 #container .solution-list .list-media {
-    background: #fff6f6 url(https://img.alicdn.com/imgextra/i1/1036020250/TB2YxD4fNtmpuFjSZFqXXbHFpXa_!!1036020250.png);
+    background: #fff6f6 url(https://img.alicdn.com/imgextra/i1/1036020250/TB2YxD4fNtmpuFjSZFqXXbHFpXa_!!1036020250.png) no-repeat center;
 }
 #container .solution-list .list-media a {
     border: 1px solid #ff6262;
     color: #ff6262;
 }
 #container .solution-list .list-app {
-    background: #f3f9ff url(https://img.alicdn.com/imgextra/i1/1036020250/TB2sV6WeMFkpuFjSspnXXb4qFXa_!!1036020250.png);
+    background: #f3f9ff url(https://img.alicdn.com/imgextra/i1/1036020250/TB2sV6WeMFkpuFjSspnXXb4qFXa_!!1036020250.png) no-repeat center;
 }
 #container .solution-list .list-app a {
     border: 1px solid #3672bc;
     color: #3672bc;
+}
+#container .solution-list .list-hotel {
+    background: #fff6f0 url(https://img.alicdn.com/imgextra/i3/1036020250/TB2379HhEhnpuFjSZFEXXX0PFXa_!!1036020250.png) no-repeat center;
+}
+#container .solution-list .list-hotel a {
+    border: 1px solid #ff8d00;
+    color: #ff8d00;
 }
 #container .life {
     margin-top: 70px;
