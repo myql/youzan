@@ -34,8 +34,7 @@
     box-sizing: border-box;
     width: 100%;
     height: 350px;
-    background: url(https://img.alicdn.com/imgextra/i4/1036020250/TB2ZrO4hrBmpuFjSZFuXXaG_XXa_!!1036020250.jpg) no-repeat;
-    background-size: 100% 350px;
+    background: #134bf5 url(https://img.alicdn.com/imgextra/i4/1036020250/TB2ZrO4hrBmpuFjSZFuXXaG_XXa_!!1036020250.jpg) no-repeat center center;
     text-align: center;
     padding: 100px 0;
 }
