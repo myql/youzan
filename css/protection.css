@@ -46,3 +46,15 @@
     font: 30px/70px Helvetica, "Pingfang SC", "Microsoft YaHei", STHeiti, Verdana, Arial, Tahoma, sans-serif;
     color: white;
 }
+#container .protection-slogan {
+	width: 100%;
+	padding-bottom:1px;
+}
+#container .protection-fix {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	background: white;
+	margin: 0 auto;
+}

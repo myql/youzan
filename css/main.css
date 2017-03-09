@@ -1,4 +1,4 @@
-html,body,ul,li,p,h1,h2,h3{
+html,body,ul,li,p,h1,h2,h3,h4{
 	padding: 0;
 	margin: 0;
 }
@@ -46,6 +46,7 @@ font-style: normal;
 	color: #2c3a46;
 	
 }
+
 #header .head-list>li {
 	float: left;
 }
@@ -454,7 +455,7 @@ font-style: normal;
 	color: #e8121d;
 }
 #container .contact-list {
-	margin-top: 100px;
+	margin-top: 50px;
 	margin-right: -100px;
 }
 #container .contact {
