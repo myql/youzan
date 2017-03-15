@@ -1,0 +1,38 @@
+			#container .ecshop .detail-list{
+				width: 30px;
+			}
+			#container .ecshop .logan-change {
+				padding-left: 86px;
+				background: url(https://img.alicdn.com/imgextra/i3/1036020250/TB2kPa5emFjpuFjSspbXXXagVXa_!!1036020250.png) no-repeat left center;
+				background-size: 55px 26px;
+			}
+			#container .ecshop .protection-details {
+				float: right;
+			}
+			#container .ecshop .protection-details {
+				margin-right: 20px;
+			}
+			#container .ecshop .protection-details li {
+				float: left;
+				margin-left: 33px;
+				margin-right: 0;
+			}
+			#container .ecshop .detail-faq .detail-list{
+				width: 60px;
+			}
+			#container .ecshop .detail-trial {
+				padding: 10px 0;
+			}
+			#container .ecshop .trial-link {
+				box-sizing: border-box;
+				width: 80px;
+				height: 30px;
+				line-height: 30px;
+				background: #ee0000;
+				color: white;
+				text-align :center;
+				border-radius: 2px;
+			}
+			#container .ecshop .trial-link:hover {
+				color: white;
+			}
