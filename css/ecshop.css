@@ -36,3 +36,26 @@
 			#container .ecshop .trial-link:hover {
 				color: white;
 			}
+			#container .overview-more {
+				text-align: center;
+				margin-bottom: 90px;
+			}
+			#container  .overview-more>a {
+				display: inline-block;
+				width: 202px;
+				height: 46px;
+				margin-top: 80px;
+				margin-bottom: 35px;
+				background: #ee0000;
+				font: 16px/46px Helvetica, "Pingfang SC", "Microsoft YaHei", STHeiti, Verdana, Arial, Tahoma, sans-serif;  
+				color: white;
+				border-radius: 4px;
+			}
+			#container  .overview-more h4 {
+				font: 16px/16px Helvetica, "Pingfang SC", "Microsoft YaHei", STHeiti, Verdana, Arial, Tahoma, sans-serif;  
+				color: #333333;
+			}
+			#container  .overview-more p {
+				font: 14px/34px Helvetica, "Pingfang SC", "Microsoft YaHei", STHeiti, Verdana, Arial, Tahoma, sans-serif;  
+				color: #b4b4b4;
+			}

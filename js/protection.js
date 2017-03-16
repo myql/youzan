@@ -12,3 +12,15 @@ $(window).on('scroll',function(){
 	}
 	
 })
+
+var $functionList=$(".function-list"),
+$detailTitle=$(".function-detail .detail-title li");
+$detailTitle.on('click',function(){
+	var $cur=$(this);
+	var index=$cur.index();
+	console.log(index);
+	var windowTop=$(window).scrollTop();
+	var functionTop=$functionList.eq(index).offset().top;
+	
+})
+
