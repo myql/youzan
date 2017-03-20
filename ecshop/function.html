@@ -23,6 +23,10 @@
 				height: 420px;
 				background: #2880e4 url(https://img.alicdn.com/imgextra/i1/1036020250/TB2_gVYi00opuFjSZFxXXaDNVXa_!!1036020250.png) no-repeat center center;
 			}
+			#container .detail-slogan {
+				width: 100%;
+				background: #f5f5f5;
+			}
 			#container .detail-title {
 				box-sizing: border-box;
 				height: 60px;
@@ -31,6 +35,12 @@
 				padding: 18px 0;
 				background: #f5f5f5;
 				border-bottom: 1px solid #ededed;
+			}
+			#container .detail-fix {
+				position: fixed;
+				top: 50px;
+				left: 0;
+				z-index: 99;
 			}
 			#container .detail-title li {
 				box-sizing: border-box;
@@ -53,8 +63,12 @@
 				background: #ee0000;
 				color: white;
 			}
+			#container .detail-title .active {
+				background: #ee0000;
+				color: white;
+			}
 			#container .function-list {
-				margin-top: 160px;
+				padding-top: 160px;
 			}
 			#container .function-list h2 {
 				margin-bottom: 80px;
@@ -187,6 +201,7 @@
 				<div class="function-title">
 				</div>
 				<div class="function-detail">
+				<div class="detail-slogan">
 					<ul class="clearfix detail-title">
 						<li><a href="##">展现</a></li>
 						<li><a href="##">推广</a></li>
@@ -198,6 +213,7 @@
 						<li><a href="##">支付</a></li>
 						<li><a href="##">数据</a></li>
 					</ul>
+					</div>
 					<div class="function-list">
 						<h2>展现</h2>
 						<ul class="clearfix list-show layout">
