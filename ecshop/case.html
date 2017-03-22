@@ -7,19 +7,35 @@
         <link rel="stylesheet" href="../css/protection.css">
         <link rel="stylesheet" href="../css/ecshop.css">
 		<style>
+		@font-face {
+  font-family: 'iconfont';  /* project id 233341 */
+  src: url('https://at.alicdn.com/t/font_ryzlajw1huwbqpvi.eot');
+  src: url('https://at.alicdn.com/t/font_ryzlajw1huwbqpvi.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_ryzlajw1huwbqpvi.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_ryzlajw1huwbqpvi.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_ryzlajw1huwbqpvi.svg#iconfont') format('svg');
+}
 			#container .detail-course a {
 				border-bottom: 2px solid #ee0000;
 				color: #ee0000;
 			}
 			#container .case-slogan{
-				position: relative;
+				
 				background: #d73f2c;
 				color: white;
-				height: 430px;
-				overflow: hidden;
 			}
-			
-			#container .case-slogan li div{
+			#container  .protection-carousel {
+				position: relative;
+				height: 430px;
+			   overflow: hidden;
+			}
+			#container  .case-list {
+				position: relative;
+				left: -100px;
+				top: 0;
+			}
+		
+			#container  .case-list div{
 				box-sizing: border-box;
 				width :1106px;
 				height: 430px;
@@ -75,7 +91,36 @@
 			}
 			#container .shop-link {
 				position: absolute;
-				top: 
+				top: 215px;
+				margin-top: -20px;
+			}
+			#container .shop-link i {
+				font-size: 40px;  
+				color:#cfddee;
+			}
+			#container .shop-ahead {
+				left: 15%;
+			}
+			#container .shop-back{
+				right: 15%;
+			}
+			#container .case-dot {
+				position: absolute;
+				bottom: 20px;
+				left: 50%;
+				transform: translateX(-50%);
+			}
+			#container .case-dot li{
+				float: left;
+				width: 10px;
+				height: 10px;
+				border-radius: 100%;
+				border: 1px solid white;
+				margin-left: 10px;
+				cursor: pointer;
+			}
+			#container .case-dot .dot-active {
+				background: white;
 			}
 		</style>
 	</head>
@@ -131,7 +176,7 @@
 				</div>
 				<div class="case-slogan">
 				<div class="protection-carousel">
-					<ul class="clearfix">
+					<ul class="clearfix case-list">
 						<li class="good-shop clearfix">
 							<div>
 							<img src="https://img.alicdn.com/imgextra/i3/1036020250/TB2oo3hilNkpuFjy0FaXXbRCVXa_!!1036020250.png" alt=" shop_logo_1.png"/>
@@ -205,8 +250,8 @@
 							</div>
 						</li>
 					</ul>
-					<a href="##" class="shop-link shop-ahead"></a>
-					<a href="##" class="shop-link shop-back"></a>
+					<a href="##" class="shop-link shop-ahead"><i class="iconfont">&#xe614;</i></a>
+					<a href="##" class="shop-link shop-back"><i class="iconfont">&#xe615;</i></a>
 					<ul class="case-dot clearfix">
 						<li class="dot-active"></li>
 						<li></li>
@@ -268,5 +313,6 @@
 		<script src="https://cdn.bootcss.com/jquery/1.9.1/jquery.min.js"></script>
 		<script src="../js/main.js"></script>
 		<script src="../js/protection.js"></script>
+		<script src="../js/case.js"></script>
 	</body>
 </html>
