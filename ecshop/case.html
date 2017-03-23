@@ -135,11 +135,11 @@
 				margin :0 auto;
 			}
 			#container .instance-head>li{
+				position: relative;
 				float: left;
 				height: 60px;
 				width: 120px;
 				text-align: center;
-				font-size: 0;
 			}
 			#container .instance-head>li>a {
 				display: inline-block;
@@ -154,6 +154,43 @@
 			}
 			#container .instance-head>li a.home-page {
 				border-left: 1px solid #e5e5e5;
+			}
+			#container .instance-head>li:hover .general-information {
+				display: block;
+			}
+			#container .home-general .general-information {
+				height: 300px;
+			}
+			#container .general-information {
+				position: absolute;
+				top: 50px;
+				left: 0;
+				z-index: 11;
+				box-sizing: border-box;
+				width: 150px;
+				height: 150px;
+				border: 1px solid #e5e5e5;
+				padding-left: 15px;
+				background: white;
+				display: none;
+			}
+			#container .general-information  a{
+				color: #697975; 
+			}
+			#container .general-information li {
+				float: left;
+				width: 60px;
+				height: 30px;
+				text-align: left;
+			}
+			#container .general-information h3 {
+				font: 14px/22px Helvetica, "Pingfang SC", "Microsoft YaHei", STHeiti, Verdana, Arial, Tahoma, sans-serif; 
+			}
+			#container .general-information li {
+					font: 12px/30px Helvetica, "Pingfang SC", "Microsoft YaHei", STHeiti, Verdana, Arial, Tahoma, sans-serif; 
+			}
+			#container .general-information li a:hover {
+				text-decoration: underline;
 			}
 		</style>
 	</head>
@@ -299,8 +336,8 @@
 		<div class="case-instance">
 			<ul class="clearfix instance-head">
 				<li><a href="##" class="home-page">首页</a></li>
-				<li><a href="##">综合</a>
-					<ul>
+				<li class="home-general"><a href="##">综合</a>
+					<ul class="clearfix general-information">
 						<h3><a href="##">综合</a></h3>
 						<li><a href="##">媒体电商</a></li>
 						<li><a href="##">知名企业</a></li>
@@ -321,13 +358,74 @@
 						<li><a href="##">酒店旅游</a></li>
 					</ul>
 				</li>
-				<li><a href="##">食品</a></li>
-				<li><a href="##">女人</a></li>
-				<li><a href="##">男人</a></li>
-				<li><a href="##">美妆</a></li>
-				<li><a href="##">亲子</a></li>
-				<li><a href="##">数码家电</a></li>
-				<li><a href="##">更多</a></li>
+				<li><a href="##">食品</a>
+					<ul class="clearfix general-information">
+						<h3><a href="##">食品</a></h3>
+						<li><a href="##">休闲零食</a></li>
+						<li><a href="##">水果生鲜</a></li>
+						<li><a href="##">咖啡茶饮</a></li>
+						<li><a href="##">蛋糕烘培</a></li>
+						<li><a href="##">外卖餐饮</a></li>
+						<li><a href="##">乡土特产</a></li>
+						<li><a href="##">酒水饮料</a></li>
+						<li><a href="##">营养滋补</a></li>
+					</ul>
+				</li>
+				<li><a href="##">女人</a>
+					<ul class="clearfix general-information">
+						<h3><a href="##">女人</a></h3>
+						<li><a href="##">女装</a></li>
+						<li><a href="##">女包</a></li>
+						<li><a href="##">珠宝饰品</a></li>
+						<li><a href="##">女士内衣</a></li>
+						<li><a href="##">女鞋</a></li>
+					</ul>
+				</li>
+				<li><a href="##">男人</a>
+					<ul class="clearfix general-information">
+						<h3><a href="##">男人</a></h3>
+						<li><a href="##">男人</a></li>
+						<li><a href="##">运动户外</a></li>
+						<li><a href="##">男装</a></li>
+					</ul>
+				</li>
+				<li><a href="##">美妆</a>
+					<ul class="clearfix general-information">
+						<h3><a href="##">美妆</a></h3>
+						<li><a href="##">彩妆香水</a></li>
+						<li><a href="##">面膜乳霜</a></li>
+						<li><a href="##">个人护理</a></li>
+					</ul>
+				</li>
+				<li><a href="##">亲子</a>
+					<ul class="clearfix general-information">
+						<h3><a href="##">亲子</a></h3>
+						<li><a href="##">母婴用品</a></li>
+						<li><a href="##">童装童鞋</a></li>
+						<li><a href="##">早教教育</a></li>
+					</ul>
+				</li>
+				<li><a href="##">数码家电</a>
+					<ul class="clearfix general-information">
+						<h3><a href="##">数码家电</a></h3>
+						<li><a href="##">家用电器</a></li>
+						<li><a href="##">智能硬件</a></li>
+						<li><a href="##">3C数码</a></li>
+					</ul>
+				</li>
+				<li><a href="##">更多</a>
+					<ul class="clearfix general-information">
+						<h3><a href="##">更多</a></h3>
+						<li><a href="##">VIP商户</a></li>
+						<li><a href="##">公益开店</a></li>
+						<li><a href="##">有赞商盟</a></li>
+						<li><a href="##">明星达人</a></li>
+						<li><a href="##">品牌商家</a></li>
+					</ul>
+				</li>
+			</ul>
+			<ul class="clearfix">
+				1
 			</ul>
 		</div>
 			<div class="layout contact clearfix">
