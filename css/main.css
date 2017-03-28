@@ -143,9 +143,10 @@ font-style: normal;
 }
 #container .list-intro {
 	position: relative;
-	top: 72px;
+	top: 51px;
 	z-index: 11;
 	float: left;
+	box-sizing: content-box;
 	width: 190px;
 	height: 55px;
   line-height: 55px;
@@ -210,16 +211,15 @@ font-style: normal;
 	height: 484px;
 	background-size: 910px 484px;
 }
-#container  .mart-list .layout {
-	position: absolute;
-	top: 0;
-	left: 50%;
-	transform: translateX(-50%);
-}
+/* #container  .mart-list .layout { */
+	/* position: absolute; */
+	/* top: 0; */
+	/* left: 50%; */
+	/* transform: translateX(-50%); */
+/* } */
 #container  .mart-main {
-	position: absolute;
-	top: 100px;
-	left: 250px;	
+	margin-left: 260px;
+	margin-top: 110px;
 	width: 300px;
 }
 #container  .active {
@@ -228,20 +228,19 @@ font-style: normal;
 #container  .mart-main h1 {
 	font: normal 40px/32px  Helvetica, "Pingfang SC", "Microsoft YaHei", STHeiti, Verdana, Arial, Tahoma, sans-serif;
 	color: white;
+	margin-bottom: 30px;
 }
 #container  .mart-main p {
 	font: normal 16px/32px  Helvetica, "Pingfang SC", "Microsoft YaHei", STHeiti, Verdana, Arial, Tahoma, sans-serif;
 	color: white;
 }
 #container  .mart-main a {
-	position: absolute;
-	bottom: -125px;
-	left: 0px;
 	display: inline-block;
 	width: 90px;
 	height: 32px;
 	line-height: 32px;
 	margin-right: 12px;
+	margin-top: 60px;
 	border: 1px solid white;
 	border-radius: 2px;
 	text-align: center;
@@ -252,9 +251,7 @@ font-style: normal;
 	left: 120px;
 }
 #container  .list-support {
-	position: absolute;
-	left: 0px;
-	bottom: -160px;
+	margin-top: 10px;
 }
 #container  .mart-main .list-first {
 	background: white;
