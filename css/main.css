@@ -17,6 +17,9 @@ a {
 	display: block;
 	clear: both;
 }
+* {
+	box-sizing: border-box;
+}
 @font-face {
   font-family: 'iconfont';  /* project id 233341 */
   src: url('http://at.alicdn.com/t/font_3oldmyg0qkmuc8fr.eot');
@@ -459,6 +462,7 @@ font-style: normal;
 	margin-right: -100px;
 }
 #container .contact {
+	width: 100%;
 	padding: 20px 0;
 	background: #fafafa;
 }
