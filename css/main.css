@@ -8,6 +8,11 @@ li {
 a {
 	text-decoration: none;
 }
+@media screen and (max-width: 1000px) {
+    .layout {
+        width: 800px;
+    }
+}
 .layout {
 	width: 1116px;
 	margin: 0 auto;
