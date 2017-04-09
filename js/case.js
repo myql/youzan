@@ -14,6 +14,7 @@ $caseList.prepend(caseLis.last().clone());
 var imageRealCount=$caseList.children().length;
 $caseList.css({
 	left: -imageWidth,
+	width: imageWidth*imageRealCount
 })
 var curIdx=0;
 $shopAhead.on('click',function(){
